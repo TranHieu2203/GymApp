@@ -52,12 +52,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IR\ICountryRepository.cs" />
+    <Compile Include="IR\IAppUserRepository.cs" />
     <Compile Include="IR\IPersonRepository.cs" />
     <Compile Include="IUnitOfWork.cs" />
     <Compile Include="R\CountryRepository.cs" />
     <Compile Include="R\GenericRepository.cs" />
     <Compile Include="IR\IGenericRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="R\AppUserRepository.cs" />
     <Compile Include="R\PersonRepository.cs" />
     <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
